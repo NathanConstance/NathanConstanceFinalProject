@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+
+header {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav a:visited {
+    /*color: #FFF8DC;*/
+    color: #D2B48C;
+
+}
+
+nav a{
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.currentLink {
+   color: #640200;
+   background-color: #000000;
+}
+
+noscript{
+  font-weight: bold;
+  font-size: 200%
+}

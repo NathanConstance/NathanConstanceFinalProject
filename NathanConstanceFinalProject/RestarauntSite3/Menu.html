@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Menu</title>
+        <link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+
+        <style>
+        body{
+        background-color: aliceblue;
+        }
+
+        article{
+          float: left;
+          padding: 10px 40px 10px 40px;
+        }
+
+        footer{
+          margin: 0px 0px 0px 0px;
+          font-size: 150%;
+
+        }
+
+        #menuItems{
+          font-size: 150%;
+          margin: 0px 0px 0px 0px;
+        }
+
+        table {
+            width: 50%;
+            margin: 40px 40px 40px 40px;
+        }
+
+        tr {
+            height: 30px;
+            font-size: 150%;
+        }
+
+        th {
+            color: 	#000000;
+            text-align: left;
+            font-size: 150%;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: 	#87CEFA;
+        }
+
+        .menuItemNames{
+          font-weight: bold;
+          font-size: 120%;
+          margin: 0px;
+        }
+
+        .clear-float {
+          clear:both;
+        }
+
+        a.menu{
+          text-decoration: none;
+        }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <main> <!-- The main element contains all blocks on the page -->
+            <header> <!-- The header element contains only the main title at this point. -->
+                <h1>Tom's Diner</h1>
+            </header>
+
+            <nav> <!-- The nav element will include navigation buttons or links -->
+              <hr />
+              <a href="Home.html" class="btn btn-info btn-lg badge-pill home"><span class="oi oi-home" title="home" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;
+                <!--<a class="btn btn-info home" href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;-->
+                <a class="btn btn-info btn-lg badge-pill menu " href="Menu.html">Menu</a>&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-info btn-lg badge-pill contact" href="ContactUs.html">Contact Us</a>
+              <hr />
+            </nav>
+            <noscript><p>Please enable JavaScript in your browser for better use of the website.</p></noscript>
+
+
+
+            <!--first row of menu items-->
+             <!-- The section element contains the three chunks we are using to sell ourselves in this page. -->
+
+             <div class="row" id="menuItems">
+
+             <div class="col-lg-4 col-md-6">
+                <article id="BurgerAndFries"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="BurgerAndFries_Name">Burger And Fries</p>
+                      <p>An American Classic!<br />
+                      Your choice-with or without chips<br />
+                      Pickle, onion, tomato, and lettuce<br />
+                      Served with our famous thick cut<br />
+                      french fries<br />
+                      $7.95<br />
+                    </p>
+                </article>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <article id="HotDogAndChips"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="HotDogAndChips_Name">Hot Dog And Chips</p>
+                      <p>A Summer Classic!<br />
+                      Your choice - white or wheat bun<br />
+                      Relish, mustard, and ketchup<br />
+                      Served with our house made chips<br />
+                      $7.95<br />
+
+                    </p>
+                </article>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <article id="ItalianSausageAndPeppers"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="ItalianSausageAndPeppers_Name">Italian Sausage And Peppers</p>
+                      <p>An All-Time Favorite!<br />
+                      Your choice - mild or spicy Cole Slaw<br />
+                      Served with garlic mashers<br />
+                      $10.95<br />
+
+                    </p>
+                </article>
+              </div>
+
+                <!--<div class="clear-float"></div>-->
+
+
+            <!--second row of menu items-->
+
+            <div class="col-lg-4 col-md-6">
+                <article id="TenderloinSandwichAndChips"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="TenderloinSandwichAndChips_Name">Tenderloin Sandwich and Chips</p>
+                      <p>Really Hits the Spot!<br />
+                      Plain or Sesame Seed Bun<br />
+                      Pickle, onion, tomato, and lettuce<br />
+                      Served with our house made chips<br />
+                      $8.95<br />
+
+                    </p>
+                </article>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <article id="HouseSalad"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="HouseSalad_Name">House Salad</p>
+                      <p>On the Lighter Side<br />
+                      Your choice- with or without cheese<br />
+                      Iceberg Lettuce, tomatoes, peppers<br />
+                      Thousand Island or Ranch<br />
+                      Dressing Served with a dinner roll<br />
+                      $6.95<br />
+                    </p>
+                </article>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <article id="BrisketSandwichAndFries"> <!-- This is the first chunk inside the section element. -->
+                  <p class="menuItemNames" id="BrisketSandwichAndFries_Name">Brisket Sandwich And Fries</p>
+                      <p>A Taste of Texas!<br />
+                      Smoked Brisket on thick-cut<br />
+                      Texas Toast<br />
+                      Cole Slaw<br />
+                      Served with our famous thick-cut french fries<br />
+                      $7.95<br />
+                    </p>
+                </article>
+              </div>
+
+            </div>
+
+
+                <table>
+                    <tr>
+                        <th colspan="2">Beverages</th>
+                    </tr>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
+                    </tr>
+                </table>
+
+                <div class="clear-float"></div>
+
+
+
+
+
+
+
+            <footer> <!-- The footer is a block at the bottom of the page. -->
+                <hr />
+                <p>Baker Street, Mineapolis, Minesotta, 77777</p>
+                <p>Phone: 1-111-111-1111<p>
+            </footer>
+        </main>
+    </body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</html>
